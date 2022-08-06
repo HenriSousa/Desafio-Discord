@@ -41,7 +41,7 @@
         width: 3.5%;
         margin-top: 1rem;
         margin-left: 0.7rem;
-        background-image: url(/IMG/header/name-header.png);
+        background-image: url(../IMG/header/name-header.png);
         background-repeat: no-repeat;
         background-size: 70% 70%;
     }
@@ -54,7 +54,7 @@
     .itemHeader2-1{
         height: 70%;
         width: 33%;
-        background-image: url(/IMG/header/button-minimizer.png);
+        background-image: url(../IMG/header/button-minimizer.png);
         background-repeat: no-repeat;
         background-size: 70% 70%;
         background-position: center;
@@ -62,7 +62,7 @@
     .itemHeader2-2{
         height: 70%;
         width: 33%;
-        background-image: url(/IMG/header/button-size.png);
+        background-image: url(../IMG/header/button-size.png);
         background-repeat: no-repeat;
         background-size: 70% 70%;
         background-position: center;
@@ -70,7 +70,7 @@
     .itemHeader2-3{
         height: 70%;
         width: 33%;
-        background-image: url(/IMG/header/button-closed.png);
+        background-image: url(../IMG/header/button-closed.png);
         background-repeat: no-repeat;
         background-size: 70% 70%;
         background-position: center;
@@ -129,7 +129,7 @@
         border-radius: 100%;
         margin-top: 8px;
         margin-bottom: 1.2rem;
-        background-image: url(/IMG/leftBar/icone-discord.png);
+        background-image: url(../IMG/leftBar/icone-discord.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 60% 60%;
@@ -138,7 +138,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/lampada.jpg);
+        background-image: url(../IMG/leftBar/lampada.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin-top: -1rem;
@@ -147,7 +147,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 30%;
-        background-image: url(/IMG/leftBar/mulher-com-planta.jpg);
+        background-image: url(../IMG/leftBar/mulher-com-planta.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -155,7 +155,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/luzes.jpg);
+        background-image: url(../IMG/leftBar/luzes.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -163,7 +163,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/raia.jpg);
+        background-image: url(../IMG/leftBar/raia.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -171,7 +171,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/dunas.jpg);
+        background-image: url(../IMG/leftBar/dunas.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -179,7 +179,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/lupa.png);
+        background-image: url(../IMG/leftBar/lupa.png);
         background-repeat: no-repeat;
         background-size: 45% 45%;
         background-position: center;
@@ -189,7 +189,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/leftBar/adicao.png);
+        background-image: url(../IMG/leftBar/adicao.png);
         background-repeat: no-repeat;
         background-size: 30% 30%;
         background-position: center;
@@ -209,7 +209,7 @@
         justify-content: center;
         width: 100%;
         height: 8rem;
-        background-image: url(/IMG/middleBar/developer.jpg);
+        background-image: url(../IMG/middleBar/developer.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -225,7 +225,7 @@
     .itemMiddleBar1-1-1{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/verificado.png);
+        background-image: url(../IMG/middleBar/verificado.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 80%;
@@ -241,7 +241,7 @@
         margin-top: 0.5rem;
         margin-right: 1.5rem;
         margin-left: -1.5rem;
-        background-image: url(/IMG/middleBar/down-arrow.png);
+        background-image: url(../IMG/middleBar/down-arrow.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -323,7 +323,7 @@
     }
     .itemMiddleBar2-1-1-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -339,7 +339,7 @@
     }    
     .itemMiddleBar2-1-2-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -363,7 +363,7 @@
     }
     .itemMiddleBar2-2-1-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -380,7 +380,7 @@
     }    
     .itemMiddleBar2-2-2-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -405,7 +405,7 @@
     }
     .itemMiddleBar2-3-1-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -422,7 +422,7 @@
     }    
     .itemMiddleBar2-3-2-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -439,7 +439,7 @@
     }    
     .itemMiddleBar2-3-3-1{
         width: 10%;
-        background-image: url(/IMG/middleBar/hashtag.png);
+        background-image: url(../IMG/middleBar/hashtag.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -467,7 +467,7 @@
     .itemMiddleBar2-4-1-1{
         width: 10%;
         height: 60%;
-        background-image: url(/IMG/middleBar/voiceChat/wifi.png);
+        background-image: url(../IMG/middleBar/voiceChat/wifi.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 70% 70%;
@@ -495,7 +495,7 @@
         width: 12%;
         height: 80%;
         margin-left: 1.5rem;
-        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-image: url(../IMG/middleBar/voiceChat/Djhow.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -519,7 +519,7 @@
         width: 12%;
         height: 80%;
         margin-left: 1.5rem;
-        background-image: url(/IMG/middleBar/voiceChat/Bob.png);
+        background-image: url(../IMG/middleBar/voiceChat/Bob.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -543,7 +543,7 @@
         width: 12%;
         height: 80%;
         margin-left: 1.5rem;
-        background-image: url(/IMG/middleBar/voiceChat/Neo.png);
+        background-image: url(../IMG/middleBar/voiceChat/Neo.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -567,7 +567,7 @@
         width: 12%;
         height: 80%;
         margin-left: 1.5rem;
-        background-image: url(/IMG/middleBar/voiceChat/Robbins.png);
+        background-image: url(../IMG/middleBar/voiceChat/Robbins.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -591,7 +591,7 @@
         width: 12%;
         height: 80%;
         margin-left: 1.5rem;
-        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-image: url(../IMG/middleBar/voiceChat/users.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 50% 50%;
@@ -626,7 +626,7 @@
     .itemMiddleBar3-1-1-1{
         height: 50%;
         width: 10%;
-        background-image: url(/IMG/middleBar/info-connection/signal.png);
+        background-image: url(../IMG/middleBar/info-connection/signal.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 90% 70%;
@@ -650,7 +650,7 @@
     .itemMiddleBar3-1-2{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/info-connection/button-pause.png);
+        background-image: url(../IMG/middleBar/info-connection/button-pause.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 50% 40%;
@@ -659,7 +659,7 @@
     .itemMiddleBar3-1-3{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/info-connection/button-disconnected.png);
+        background-image: url(../IMG/middleBar/info-connection/button-disconnected.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 50% 40%;
@@ -680,7 +680,7 @@
         margin-top: 0.1rem;
         display: flex;
         border-radius: 100%;
-        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-image: url(../IMG/middleBar/voiceChat/Djhow.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 80%;
@@ -707,7 +707,7 @@
     .itemMiddleBar3-2-3{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/info-connection/button-mute.png);
+        background-image: url(../IMG/middleBar/info-connection/button-mute.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 40%;
@@ -716,7 +716,7 @@
     .itemMiddleBar3-2-4{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/info-connection/button-headset.png);
+        background-image: url(../IMG/middleBar/info-connection/button-headset.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 40%;
@@ -725,7 +725,7 @@
     .itemMiddleBar3-2-5{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/info-connection/button-setting.png);
+        background-image: url(../IMG/middleBar/info-connection/button-setting.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 80% 50%;
@@ -756,7 +756,7 @@
     .itemBoxOne1-1{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/box/boxOne/signalWifi.png);
+        background-image: url(../IMG/box/boxOne/signalWifi.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 90% 50%;
@@ -777,7 +777,7 @@
     .itemBoxOne2-1{
         width: 100%;
         height: 100%;
-        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-image: url(../IMG/middleBar/voiceChat/users.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 70% 70%;
@@ -812,7 +812,7 @@
     .itemBoxTwo2-1{
         width: 10%;
         height: 100%;
-        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-image: url(../IMG/middleBar/voiceChat/users.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 50% 50%;
@@ -848,7 +848,7 @@
         width: 5rem;
         border-radius: 100%;
         margin-bottom: 1rem;
-        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-image: url(../IMG/middleBar/voiceChat/Djhow.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -874,7 +874,7 @@
         background-color: white;
         border-radius: 100%;
         padding: 10px 15px;
-        background-image: url(/IMG/box/boxThree/servidor.png);
+        background-image: url(../IMG/box/boxThree/servidor.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 70% 70%;
@@ -897,7 +897,7 @@
         width: 5rem;
         border-radius: 100%;
         margin-bottom: 1rem;
-        background-image: url(/IMG/middleBar/voiceChat/Bob.png);
+        background-image: url(../IMG/middleBar/voiceChat/Bob.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -942,7 +942,7 @@
         width: 5rem;
         border-radius: 100%;
         margin-bottom: 1rem;
-        background-image: url(/IMG/middleBar/voiceChat/Neo.png);
+        background-image: url(../IMG/middleBar/voiceChat/Neo.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -987,7 +987,7 @@
         width: 5rem;
         border-radius: 100%;
         margin-bottom: 1rem;
-        background-image: url(/IMG/middleBar/voiceChat/Robbins.png);
+        background-image: url(../IMG/middleBar/voiceChat/Robbins.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1079,7 +1079,7 @@
         width: 1.2rem;
         height: 1.2rem;
         color: white;
-        background-image: url(/IMG/box/boxFour/statusP/plant.png);
+        background-image: url(../IMG/box/boxFour/statusP/plant.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 70% 70%;
@@ -1092,7 +1092,7 @@
         width: 3rem;
         display: flex;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/one.png);
+        background-image: url(../IMG/box/boxFour/one.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1102,7 +1102,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/two.jpg);
+        background-image: url(../IMG/box/boxFour/two.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1113,7 +1113,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/three.jpg);
+        background-image: url(../IMG/box/boxFour/three.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1124,7 +1124,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/four.jpg);
+        background-image: url(../IMG/box/boxFour/four.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1135,7 +1135,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/five.jpg);
+        background-image: url(../IMG/box/boxFour/five.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1146,7 +1146,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/six.png);
+        background-image: url(../IMG/box/boxFour/six.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1157,7 +1157,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/seven.png);
+        background-image: url(../IMG/box/boxFour/seven.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1168,7 +1168,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/eight.jpg);
+        background-image: url(../IMG/box/boxFour/eight.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1179,7 +1179,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/nine.png);
+        background-image: url(../IMG/box/boxFour/nine.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1190,7 +1190,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/ten.png);
+        background-image: url(../IMG/box/boxFour/ten.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1201,7 +1201,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/eleven.png);
+        background-image: url(../IMG/box/boxFour/eleven.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1212,7 +1212,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twelve.png);
+        background-image: url(../IMG/box/boxFour/twelve.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1223,7 +1223,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/thirteen.png);
+        background-image: url(../IMG/box/boxFour/thirteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1234,7 +1234,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/fourteen.png);
+        background-image: url(../IMG/box/boxFour/fourteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1245,7 +1245,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/fifteen.png);
+        background-image: url(../IMG/box/boxFour/fifteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1256,7 +1256,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/sixteen.png);
+        background-image: url(../IMG/box/boxFour/sixteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1267,7 +1267,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/seventeen.png);
+        background-image: url(../IMG/box/boxFour/seventeen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1278,7 +1278,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/eighteen.png);
+        background-image: url(../IMG/box/boxFour/eighteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1289,7 +1289,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/nineteen.png);
+        background-image: url(../IMG/box/boxFour/nineteen.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1300,7 +1300,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty.png);
+        background-image: url(../IMG/box/boxFour/twenty.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1311,7 +1311,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-one.png);
+        background-image: url(../IMG/box/boxFour/twenty-one.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1322,7 +1322,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-two.png);
+        background-image: url(../IMG/box/boxFour/twenty-two.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1333,7 +1333,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-three.png);
+        background-image: url(../IMG/box/boxFour/twenty-three.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1344,7 +1344,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-four.jpg);
+        background-image: url(../IMG/box/boxFour/twenty-four.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1355,7 +1355,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-five.png);
+        background-image: url(../IMG/box/boxFour/twenty-five.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1366,7 +1366,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-six.png);
+        background-image: url(../IMG/box/boxFour/twenty-six.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1377,7 +1377,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-seven.png);
+        background-image: url(../IMG/box/boxFour/twenty-seven.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1388,7 +1388,7 @@
         height: 3rem;
         width: 3rem;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFour/twenty-eight.jpg);
+        background-image: url(../IMG/box/boxFour/twenty-eight.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;
@@ -1433,7 +1433,7 @@
     }
     .patent{
         padding: 0.5rem;
-        background-image: url(/IMG/box/boxFour/statusP/gemstone.png);
+        background-image: url(../IMG/box/boxFour/statusP/gemstone.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 60% 60%;      
@@ -1453,7 +1453,7 @@
         height: 50px;
         width: 50px;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFive/waving-hand.png);
+        background-image: url(../IMG/box/boxFive/waving-hand.png);
         background-repeat: no-repeat;
         background-size: 40% 40%;
         background-position: center;
@@ -1477,7 +1477,7 @@
         height: 50px;
         width: 50px;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFive/user.png);
+        background-image: url(../IMG/box/boxFive/user.png);
         background-repeat: no-repeat;
         background-size: 50% 50%;
         background-position: center;
@@ -1488,7 +1488,7 @@
         width: 50px;
         display: flex;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFive/microphone.png);
+        background-image: url(../IMG/box/boxFive/microphone.png);
         background-repeat: no-repeat;
         background-size: 40% 40%;
         background-position: center;
@@ -1499,7 +1499,7 @@
     .moreSet{
         background-color: #1C1C1C;                
         border-radius: 100%;
-        background-image: url(/IMG/middleBar/down-arrow.png);
+        background-image: url(../IMG/middleBar/down-arrow.png);
         background-repeat: no-repeat;
         background-size: 80% 80%;
         background-position: center;
@@ -1514,7 +1514,7 @@
         height: 50px;
         width: 50px;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFive/group.png);
+        background-image: url(../IMG/box/boxFive/group.png);
         background-repeat: no-repeat;
         background-size: 50% 50%;
         background-position: center;
@@ -1524,7 +1524,7 @@
         height: 50px;
         width: 50px;
         border-radius: 100%;
-        background-image: url(/IMG/box/boxFive/power-off.png);
+        background-image: url(../IMG/box/boxFive/power-off.png);
         background-repeat: no-repeat;
         background-size: 50% 50%;
         background-position: center;
