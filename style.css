@@ -1,0 +1,1532 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    .font{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    hr.first{
+        border: 1px solid #363636;
+        width: 50%;
+        margin-top: -0.7rem;
+        margin-bottom: 1.5rem;
+    }
+    hr.second{
+        border: 1px solid #363636;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header{
+        display: flex;
+        height: 2rem;
+        width: 100%;
+        line-height: 2rem;        
+        flex-grow: 0;
+        justify-content: space-between;
+        background-color: #1C1C1C;
+    }
+    .itemHeader1{
+        height: 50%;
+        width: 3.5%;
+        margin-top: 1rem;
+        margin-left: 0.7rem;
+        background-image: url(/IMG/header/name-header.png);
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+    }
+    .itemHeader2{
+        display: flex;
+        height: 100%;
+        width: 5%;
+        align-items: center;
+    }
+    .itemHeader2-1{
+        height: 70%;
+        width: 33%;
+        background-image: url(/IMG/header/button-minimizer.png);
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        background-position: center;
+    }
+    .itemHeader2-2{
+        height: 70%;
+        width: 33%;
+        background-image: url(/IMG/header/button-size.png);
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        background-position: center;
+    }
+    .itemHeader2-3{
+        height: 70%;
+        width: 33%;
+        background-image: url(/IMG/header/button-closed.png);
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        background-position: center;
+    }
+    .whiteBarLeft{
+        display: flex;
+        background-color:#1C1C1C;
+        width: 0.2rem;
+        flex-direction: column;
+        row-gap: 0.4rem;
+    }
+    .whiteBarLeft1{
+        background-color: none;
+        width: 0.2rem;
+        height: 3rem;
+        margin-top: 5.5rem;
+        border-radius: 23%;
+    }
+    .whiteBarLeft2{
+        background-color: white;
+        width: 0.2rem;
+        height: 3rem;
+        border-radius: 23%;
+    }
+    .whiteBarLeft3{
+        background-color: none;
+        width: 0.2rem;
+        height: 3rem;
+        border-radius: 23%;
+    }
+    .whiteBarLeft4{
+        background-color: none;
+        width: 0.2rem;
+        height: 3rem;
+        border-radius: 23%;
+    }
+    .whiteBarLeft5{
+        background-color: none;
+        width: 0.2rem;
+        height: 3rem;
+        border-radius: 23%;
+    }
+    .leftBar{
+        display: flex;
+        height: 57.2rem;
+        width: 3%;
+        flex-grow: 0;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0.4rem;
+        background-color:#1C1C1C;
+    }
+    .itemLeftBar1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-bottom: 1.2rem;
+        background-image: url(/IMG/leftBar/icone-discord.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60% 60%;
+    }
+    .itemLeftBar2{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/lampada.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-top: -1rem;
+    }
+    .itemLeftBar3{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 30%;
+        background-image: url(/IMG/leftBar/mulher-com-planta.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemLeftBar4{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/luzes.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemLeftBar5{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/raia.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemLeftBar6{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/dunas.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemLeftBar7{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/lupa.png);
+        background-repeat: no-repeat;
+        background-size: 45% 45%;
+        background-position: center;
+        background-color:#363636;
+    }
+    .itemLeftBar8{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/leftBar/adicao.png);
+        background-repeat: no-repeat;
+        background-size: 30% 30%;
+        background-position: center;
+        background-color:#363636;    
+    }
+    .middleBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 57.2rem;
+        width: 13.5%;
+        flex-grow: 0;
+        background-color: #2F3138;
+    }
+    .itemMiddleBar1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 8rem;
+        background-image: url(/IMG/middleBar/developer.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemMiddleBar1-1{
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        width: 85%;
+        height: 20%;
+        margin-top: 0.5rem;
+        line-height: 1.5rem;
+    }
+    .itemMiddleBar1-1-1{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/verificado.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 80%;
+    }
+    .itemMiddleBar1-1-2{
+        width: 80%;
+        height: 50%;
+        line-height: 1.8rem;
+    }
+    .itemMiddleBar1-2{
+        width: 10%;
+        height: 20%;
+        margin-top: 0.5rem;
+        margin-right: 1.5rem;
+        margin-left: -1.5rem;
+        background-image: url(/IMG/middleBar/down-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .itemMiddleBar2{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        height: 43rem;
+        color: white;
+    }
+    .whiteBarMiddle{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.1rem;
+        width: 0.5rem;
+        height: 100%;
+    }
+    .whiteBarMiddle1{
+        background-color: none;
+        width: 50%;
+        height: 0.5rem;
+        margin-top: 3rem;
+        border-radius: 20%;
+    }
+    .whiteBarMiddle2{
+        background-color: white;
+        width: 50%;
+        height: 0.5rem;
+        border-radius: 20%;
+        margin-top: 0.1rem;
+    }
+    .whiteBarMiddle3{
+        background-color: none;
+        width: 50%;
+        height: 0.5rem;
+        margin-top: 1.8rem;
+        border-radius: 20%;
+    }
+    .whiteBarMiddle4{
+        background-color: none;
+        width: 50%;
+        height: 0.5rem;
+        border-radius: 20%;
+    }
+    .whiteBarMiddle5{
+        background-color: white;
+        width: 50%;
+        height: 0.5rem;
+        margin-top: 2.3rem;
+        border-radius: 20%;
+    }
+    .whiteBarMiddle6{
+        background-color: none;
+        width: 50%;
+        height: 0.5rem;
+        border-radius: 20%;
+        margin-top: 0.1rem;
+    }
+    .whiteBarMiddle7{
+        background-color: none;
+        width: 50%;
+        height: 0.5rem;
+        border-radius: 20%;
+        margin-top: 0.1rem;
+    }
+    .itemMiddleBar2-1{
+        display: flex;
+        flex-direction: column;
+        height: 5rem;
+        width: 97%;
+        margin-top: 0.5rem;
+        color:#C0C0C0;
+        justify-content: end;
+        line-height: 2rem;
+    }
+    .itemMiddleBar2-1-1{
+        display: flex;
+        width: 100%;
+    }
+    .itemMiddleBar2-1-1-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-1-1-2{
+        width: 90%;
+        line-height: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-1-2{
+        display: flex;
+        margin-top: 0.5rem;
+    }    
+    .itemMiddleBar2-1-2-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-1-2-2{
+        width: 90%;
+        color: white;
+        line-height: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-2{
+        display: flex;
+        flex-direction: column;
+        height: 5rem;
+        margin-top: 1rem;
+        color:#C0C0C0;
+    }
+    .itemMiddleBar2-2-1{
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    .itemMiddleBar2-2-1-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-2-1-2{
+        width: 90%;
+        line-height: 1.2rem;
+        color: white;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-2-2{
+        display: flex;
+        margin-top: 0.5rem;
+    }    
+    .itemMiddleBar2-2-2-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-2-2-2{
+        width: 90%;
+        color: #C0C0C0;
+        line-height: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-3{
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        height: 8rem;
+        color:#C0C0C0;
+        margin-top: 0.5rem;
+    }
+    .itemMiddleBar2-3-1{
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    .itemMiddleBar2-3-1-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-3-1-2{
+        width: 90%;
+        line-height: 1.2rem;
+        color: white;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-3-2{
+        display: flex;
+        margin-top: 0.5rem;
+    }    
+    .itemMiddleBar2-3-2-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-3-2-2{
+        width: 90%;
+        color: #C0C0C0;
+        line-height: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-3-3{
+        display: flex;
+        margin-top: 0.5rem;
+    }    
+    .itemMiddleBar2-3-3-1{
+        width: 10%;
+        background-image: url(/IMG/middleBar/hashtag.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+    }
+    .itemMiddleBar2-3-3-2{
+        width: 90%;
+        color: #C0C0C0;
+        line-height: 1.2rem;
+        margin-left: 0.2rem;
+    }
+    .itemMiddleBar2-4{
+        display: flex;
+        flex-flow: column wrap;
+        height: 21rem;        
+        color:#C0C0C0;
+    }
+    .itemMIddleBar2-4-1{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        height: 15%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+    .itemMiddleBar2-4-1-1{
+        width: 10%;
+        height: 60%;
+        background-image: url(/IMG/middleBar/voiceChat/wifi.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70% 70%;
+        margin-bottom: 0.5rem;
+    }
+    .itemMiddleBar2-4-1-2{
+        width: 100%;
+        height: 50%;
+        line-height: 1.5rem;
+        color:#C0C0C0;
+    }
+    .itemMiddleBar2-4-1-3{
+        width: 100%;
+        height: 50%;
+        font-size: small;
+        color:#C0C0C0;
+    }
+    .itemMiddleBar2-4-2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .itemMiddleBar2-4-2-1{
+        border-radius: 100%;
+        width: 12%;
+        height: 80%;
+        margin-left: 1.5rem;
+        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+        background-color: #ADD8E6;
+    }
+    .itemMiddleBar2-4-2-2{
+        width: 90%;
+        height: 70%;
+        line-height: 1.6rem;
+        margin-left: 0.5rem;
+        color:#C0C0C0;
+        font-size: small;
+    }
+    .itemMiddleBar2-4-3{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .itemMiddleBar2-4-3-1{
+        border-radius: 100%;
+        width: 12%;
+        height: 80%;
+        margin-left: 1.5rem;
+        background-image: url(/IMG/middleBar/voiceChat/Bob.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+        background-color: #4169E1;
+    }
+    .itemMiddleBar2-4-3-2{
+        width: 90%;
+        height: 70%;
+        line-height: 1.6rem;
+        margin-left: 0.5rem;
+        color:#C0C0C0;
+        font-size: small;
+    }
+    .itemMiddleBar2-4-4{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .itemMiddleBar2-4-4-1{
+        border-radius: 100%;
+        width: 12%;
+        height: 80%;
+        margin-left: 1.5rem;
+        background-image: url(/IMG/middleBar/voiceChat/Neo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+        background-color: #F08080;
+    }
+    .itemMiddleBar2-4-4-2{
+        width: 90%;
+        height: 70%;
+        line-height: 1.6rem;
+        margin-left: 0.5rem;
+        color:#C0C0C0;
+        font-size: small;
+    }
+    .itemMiddleBar2-4-5{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .itemMiddleBar2-4-5-1{
+        border-radius: 100%;
+        width: 12%;
+        height: 80%;
+        margin-left: 1.5rem;
+        background-image: url(/IMG/middleBar/voiceChat/Robbins.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+        background-color: #FFF5EE;
+    }
+    .itemMiddleBar2-4-5-2{
+        width: 90%;
+        height: 70%;
+        line-height: 1.6rem;
+        margin-left: 0.5rem;
+        color:#C0C0C0;
+        font-size: small;
+    }
+    .itemMiddleBar2-4-6{
+        width: 100%;
+        height: 10%;
+        display: flex;
+    }
+    .itemMiddleBar2-4-6-1{
+        border-radius: 100%;
+        width: 12%;
+        height: 80%;
+        margin-left: 1.5rem;
+        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50% 50%;
+        background-color: black;
+    }
+    .itemMiddleBar2-4-6-2{
+        width: 90%;
+        height: 70%;
+        line-height: 1.6rem;
+        margin-left: 0.5rem;
+        color:#C0C0C0;
+        font-size: small;
+    }
+    .itemMiddleBar3{
+        width: 100%;
+        height: 5.6rem;
+    }
+    .itemMiddleBar3-1{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: space-between;
+        background-color: #1C1C1C;
+    }
+    .itemMiddleBar3-1-1{
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0.5rem;
+    }
+    .itemMiddleBar3-1-1-1{
+        height: 50%;
+        width: 10%;
+        background-image: url(/IMG/middleBar/info-connection/signal.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 70%;
+        margin-top: 0.3rem;
+    }
+    .itemMiddleBar3-1-1-2{
+        height: 50%;
+        width: 80%;
+        color: #32CD32;
+        line-height: 1.5rem;
+        margin-left: 0.2rem;
+        margin-top: 0.3rem;
+    }
+    .itemMiddleBar3-1-1-3{
+        height: 50%;
+        width: 100%;
+        color: #C0C0C0;
+        font-size: small;
+        line-height: 0.6rem;
+    }
+    .itemMiddleBar3-1-2{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/info-connection/button-pause.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50% 40%;
+        margin-right: 0.2rem;
+    }
+    .itemMiddleBar3-1-3{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/info-connection/button-disconnected.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50% 40%;
+        margin-right: 0.4rem;
+    }
+    .itemMiddleBar3-2{
+        background-color: #1C1C1C;
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: space-around;
+    }
+    .itemMiddleBar3-2-1{
+        background-color: #ADD8E6;
+        width: 15%;
+        height: 80%;
+        margin-left: 0.5rem;
+        margin-top: 0.1rem;
+        display: flex;
+        border-radius: 100%;
+        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 80%;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .statusOn{
+        background-color: lime;
+        border-radius: 100%;
+        border: 2px solid black;
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    .itemMiddleBar3-2-2{
+        width: 55%;
+        height: 100%; 
+    }
+    .itemMiddleBar3-2-2 li{
+        list-style-type: none;
+        margin-left: 0.5rem;
+        margin-top: 0.3rem;
+        color: white;
+    }
+    .itemMiddleBar3-2-3{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/info-connection/button-mute.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 40%;
+        margin-right: 0.6rem;
+    }
+    .itemMiddleBar3-2-4{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/info-connection/button-headset.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 40%;
+        margin-right: 0.7rem;
+    }
+    .itemMiddleBar3-2-5{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/info-connection/button-setting.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80% 50%;
+        margin-right: 0.6rem;
+    }
+    .box{
+        display: flex;
+        background-color: black;
+        height: 57.2rem;
+        width: 80%;
+        flex-grow: 1;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .boxOne{
+        display: flex;
+        height: 2rem;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #18181D;
+    }
+    .itemBoxOne1{
+        display: flex;
+        width: 10%;
+        height: 100%;
+        margin-left: 0.5rem;
+    }
+    .itemBoxOne1-1{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/box/boxOne/signalWifi.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90% 50%;
+    }
+    .itemBoxOne1-2{
+        width: 90%;
+        height: 100%;
+        color: white;
+        line-height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .itemBoxOne2{
+        display: flex;
+        width: 4%;
+        height: 100%;
+        margin-right: 0.5rem;        
+    }
+    .itemBoxOne2-1{
+        width: 100%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+    }
+    .itemBoxOne2-2{
+        width: 90%;
+        height: 100%;
+        color: #D3D3D3;
+        line-height: 2rem;
+    }
+    .boxTwo{
+        display: flex;
+        height: 6.1rem;
+        width: 100%;
+        flex-direction: column;
+        background-color: #18181D;
+    }
+    .itemBoxTwo1{
+        width: 25%;
+        height: 40%;
+        margin-top: 1.7rem;
+        margin-left: 0.5rem;
+        color: white;
+        font-size: large;
+        line-height: 3rem;
+    }
+    .itemBoxTwo2{
+        display: flex;
+        width: 20%;
+        height: 30%;
+    }
+    .itemBoxTwo2-1{
+        width: 10%;
+        height: 100%;
+        background-image: url(/IMG/middleBar/voiceChat/users.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+    }
+    .itemBoxTwo2-2{
+        width: 100%;
+        height: 100%;
+        color: #D3D3D3;
+        line-height: 1.9rem;      
+    }
+    .boxThree{
+        display: flex;
+        height: 12rem;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #18181D;
+    }
+    .itemBoxThree1{
+        display: flex;
+        background-color:#ADD8E6;
+        width: 19%;
+        height: 100%;
+        border-radius: 5%;
+        margin-right: 2px;
+        margin-left: 2px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .itemBoxThree1-1{
+        border: solid white;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        margin-bottom: 1rem;
+        background-image: url(/IMG/middleBar/voiceChat/Djhow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .itemBoxThree1-2{
+        display: flex;
+        height: 2rem;
+        width: 90%;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .itemBoxThree1-2-1{
+        padding: 7px 10px;
+        background-color: rgba(39, 39, 39, 0.527);
+        border-radius: 15%;
+    }
+    .itemBoxThree1-2-1 li{
+        height: 100%;
+        color: white;
+        list-style-type: none;
+    }
+    .itemBoxThree1-2-2{
+        background-color: white;
+        border-radius: 100%;
+        padding: 10px 15px;
+        background-image: url(/IMG/box/boxThree/servidor.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70% 70%;
+    }
+    .itemBoxThree2{
+        display: flex;
+        background-color: #4169E1;
+        width: 19%;
+        height: 100%;        
+        border-radius: 5%;
+        margin-right: 2px;
+        margin-left: 2px;        
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .itemBoxThree2-1{
+        border: solid white;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        margin-bottom: 1rem;
+        background-image: url(/IMG/middleBar/voiceChat/Bob.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .itemBoxThree2-2{
+        display: flex;
+        height: 2rem;
+        width: 90%;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .itemBoxThree2-2-1{
+        padding: 7px 10px;
+        background-color: rgba(39, 39, 39, 0.527);
+        border-radius: 15%;
+    }
+    .itemBoxThree2-2-1 li{
+        height: 100%;
+        color: white;
+        list-style-type: none;
+    }
+    .itemBoxThree2-2-2{
+        background-color: none;
+        border-radius: 100%;
+        padding: 10px 15px;
+    }
+    .itemBoxThree3{ 
+        display: flex;
+        background-color: #F08080;      
+        width: 19%;
+        height: 100%;
+        border-radius: 5%;
+        margin-right: 2px;
+        margin-left: 2px;        
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .itemBoxThree3-1{        
+        border: solid white;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        margin-bottom: 1rem;
+        background-image: url(/IMG/middleBar/voiceChat/Neo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .itemBoxThree3-2{
+        display: flex;
+        height: 2rem;
+        width: 90%;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .itemBoxThree3-2-1{
+        padding: 7px 10px;
+        background-color: rgba(39, 39, 39, 0.527);
+        border-radius: 15%;
+    }
+    .itemBoxThree3-2-1 li{
+        height: 100%;
+        color: white;
+        list-style-type: none;
+    }
+    .itemBoxThree3-2-2{
+        background-color: none;
+        border-radius: 100%;
+        padding: 10px 15px;   
+    }
+    .itemBoxThree4{
+        display: flex;     
+        background-color: #FFF5EE;
+        width: 19%;
+        height: 100%;
+        border-radius: 5%;
+        margin-right: 2px;
+        margin-left: 2px;        
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .itemBoxThree4-1{
+        border: solid greenyellow;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        margin-bottom: 1rem;
+        background-image: url(/IMG/middleBar/voiceChat/Robbins.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .itemBoxThree4-2{
+        display: flex;
+        height: 2rem;
+        width: 90%;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .itemBoxThree4-2-1{
+        padding: 7px 10px;
+        background-color:rgba(39, 39, 39, 0.527);
+        opacity: 0.8;
+        border-radius: 15%;
+    }
+    .itemBoxThree4-2-1 li{
+        height: 100%;
+        color: white;
+        list-style-type: none;
+    }
+    .itemBoxThree4-2-2{
+        background-color: none;
+        border-radius: 100%;
+        padding: 10px 15px;
+    }
+    .boxFour{
+        display: flex;
+        height: 33rem;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        background-image: linear-gradient(#18181D,#18181D,#18181D);
+    }
+    .itemBoxFour1{
+        width: 100%;
+        height: 1rem;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        color: #D3D3D3;
+        font-size: x-small;
+    }
+    .itemBoxFour2,
+    .itemBoxFour3,
+    .itemBoxFour4,
+    .itemBoxFour5,
+    .itemBoxFour6,
+    .itemBoxFour7,
+    .itemBoxFour8,
+    .itemBoxFour9,
+    .itemBoxFour10,
+    .itemBoxFour11,
+    .itemBoxFour12,
+    .itemBoxFour13,
+    .itemBoxFour14,
+    .itemBoxFour15,
+    .itemBoxFour16,
+    .itemBoxFour17,
+    .itemBoxFour18,
+    .itemBoxFour19,
+    .itemBoxFour20,
+    .itemBoxFour21,
+    .itemBoxFour22,
+    .itemBoxFour23,
+    .itemBoxFour24,
+    .itemBoxFour25,
+    .itemBoxFour26,
+    .itemBoxFour27,
+    .itemBoxFour28,
+    .itemBoxFour29{
+        display: flex;
+        width: 5rem;
+        height: 5.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 0.5rem;
+        border-radius: 15%;
+    }
+    .background{
+        background-color: #242525;
+    }
+    .statusP{                
+        background-color: white;
+        border-radius: 100%;
+        border: 2px solid black;
+        width: 1.2rem;
+        height: 1.2rem;
+        color: white;
+        background-image: url(/IMG/box/boxFour/statusP/plant.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        position: relative;
+        bottom: 4px;
+        left: 4px;         
+    }
+    .itemBoxFour2-1{
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/one.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        justify-content: end;
+    }
+    .itemBoxFour3-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/two.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour4-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/three.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour5-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/four.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour6-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/five.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour7-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/six.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour8-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/seven.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour9-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/eight.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour10-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/nine.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour11-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/ten.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour12-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/eleven.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour13-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twelve.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour14-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/thirteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour15-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/fourteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour16-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/fifteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour17-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/sixteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour18-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/seventeen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour19-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/eighteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour20-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/nineteen.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour21-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour22-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-one.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour23-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-two.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour24-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-three.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour25-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-four.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour26-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-five.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour27-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-six.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour28-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-seven.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour29-1{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFour/twenty-eight.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .itemBoxFour2-2,
+    .itemBoxFour3-2,
+    .itemBoxFour4-2,
+    .itemBoxFour5-2,
+    .itemBoxFour6-2,
+    .itemBoxFour7-2,
+    .itemBoxFour8-2,
+    .itemBoxFour9-2,
+    .itemBoxFour10-2,
+    .itemBoxFour11-2,
+    .itemBoxFour12-2,
+    .itemBoxFour13-2,
+    .itemBoxFour14-2,
+    .itemBoxFour15-2,
+    .itemBoxFour16-2,
+    .itemBoxFour17-2,
+    .itemBoxFour18-2,
+    .itemBoxFour19-2,
+    .itemBoxFour20-2,
+    .itemBoxFour21-2,
+    .itemBoxFour22-2,
+    .itemBoxFour23-2,
+    .itemBoxFour24-2,
+    .itemBoxFour25-2,
+    .itemBoxFour26-2,
+    .itemBoxFour27-2,
+    .itemBoxFour28-2,
+    .itemBoxFour29-2{
+        min-width: 40%;
+        padding: 0.25rem 0.5rem;
+        margin-bottom: 4px;
+        text-align: center;
+        font-size: small;
+        color: #D3D3D3;
+        display: flex;
+    }
+    .patent{
+        padding: 0.5rem;
+        background-image: url(/IMG/box/boxFour/statusP/gemstone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60% 60%;      
+    }
+    .boxFive{
+        display: flex;
+        height: 5rem;
+        width: 100%;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+        background-image: linear-gradient(#18181D, black, black);
+    }
+    .itemBoxFive1{
+        display: flex;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFive/waving-hand.png);
+        background-repeat: no-repeat;
+        background-size: 40% 40%;
+        background-position: center;
+        justify-content: flex-end;
+        background-color:#1C1C1C;
+    }
+    .raiseTheHand{        
+        background-color: red;
+        border-radius: 100%;
+        border: 2px solid black;
+        width: 1rem;
+        height: 1rem;
+        text-align: center;
+        line-height: 0.5rem;
+        color: white;
+        position: relative;
+        bottom: 3px;
+        left: 3px;
+    }
+    .itemBoxFive2{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFive/user.png);
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        background-position: center;
+        background-color:#1C1C1C;
+    }
+    .itemBoxFive3{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFive/microphone.png);
+        background-repeat: no-repeat;
+        background-size: 40% 40%;
+        background-position: center;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: #1C1C1C;
+    }
+    .moreSet{
+        background-color: #1C1C1C;                
+        border-radius: 100%;
+        background-image: url(/IMG/middleBar/down-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        background-position: center;
+        border: 2px solid black;
+        width: 1.3rem;
+        height: 1.3rem;
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+    .itemBoxFive4{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFive/group.png);
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        background-position: center;
+        background-color: #1C1C1C;
+    }
+    .itemBoxFive5{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-image: url(/IMG/box/boxFive/power-off.png);
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        background-position: center;
+        background-color: red;
+    }
