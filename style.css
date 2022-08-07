@@ -833,7 +833,8 @@
     .itemBoxThree1{
         display: flex;
         background-color:#ADD8E6;
-        width: 19%;
+        width: 100%;
+        max-width: 260px;
         height: 100%;
         border-radius: 5%;
         margin-right: 2px;
@@ -845,7 +846,7 @@
     .itemBoxThree1-1{
         border: solid white;
         height: 5rem;
-        width: 27%;
+        width: 30%;
         border-radius: 100%;
         margin-bottom: 1rem;
         background-image: url(./img/middlebar/voicechat/Djhow.png);
@@ -882,7 +883,8 @@
     .itemBoxThree2{
         display: flex;
         background-color: #4169E1;
-        width: 19%;
+        width: 100%;        
+        max-width: 260px;
         height: 100%;        
         border-radius: 5%;
         margin-right: 2px;
@@ -894,7 +896,7 @@
     .itemBoxThree2-1{
         border: solid white;
         height: 5rem;
-        width: 27%;
+        width: 30%;
         border-radius: 100%;
         margin-bottom: 1rem;
         background-image: url(./img/middlebar/voicechat/Bob.png);
@@ -927,7 +929,8 @@
     .itemBoxThree3{ 
         display: flex;
         background-color: #F08080;      
-        width: 19%;
+        width: 100%;
+        max-width: 260px;
         height: 100%;
         border-radius: 5%;
         margin-right: 2px;
@@ -939,7 +942,7 @@
     .itemBoxThree3-1{        
         border: solid white;
         height: 5rem;
-        width: 27%;
+        width: 30%;
         border-radius: 100%;
         margin-bottom: 1rem;
         background-image: url(./img/middlebar/voicechat/Neo.png);
@@ -972,7 +975,8 @@
     .itemBoxThree4{
         display: flex;     
         background-color: #FFF5EE;
-        width: 19%;
+        width: 100%;
+        max-width: 260px;
         height: 100%;
         border-radius: 5%;
         margin-right: 2px;
@@ -984,7 +988,7 @@
     .itemBoxThree4-1{
         border: solid greenyellow;
         height: 5rem;
-        width: 27%;
+        width: 30%;
         border-radius: 100%;
         margin-bottom: 1rem;
         background-image: url(./img/middlebar/voicechat/Robbins.png);
